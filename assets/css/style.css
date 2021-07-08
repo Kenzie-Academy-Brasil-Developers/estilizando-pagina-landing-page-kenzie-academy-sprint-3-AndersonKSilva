@@ -480,6 +480,10 @@ img{
     margin-right: auto;
     margin-left: auto;
 }
+.input_button{
+    display: flex;
+    justify-content: flex-end;
+}
 /* fim seção contato */
 
 
@@ -650,6 +654,9 @@ footer i {
         .secaoContato p, .secaoContato ul {
             width: 100%;
         }
+        .input_button{
+            width: 95%;
+        }
     }
     @media only screen and (min-width: 1024px) {
         .fa-bars{
@@ -737,6 +744,9 @@ footer i {
             transform: translateX(-10vw);
             height: 50px;
             margin-bottom: 0;
+        }
+        .input_button{
+            width: 95%;
         }
         .secaoContato .secaoContato-informacoes {
             font-size: 15px;
